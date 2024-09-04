@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary Web App</title>
+    <link rel="icon" type="image/x-icon" href="./download.ico">
+</head>
+
+<body>
+    <header>
+        <img src="./download.png" alt="">
+
+    </header>
+    <main>
+        <div class="search-head">
+            <h1 id="look">Word Lookup</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Enter a word">
+                <span id="clear-search" class="clear-icon">
+                &#x2715;
+                <!-- clear -->
+            </span>
+                <button id="search-button">Search</button>
+            </div>
+            <h3 id="sugg">Such as: moon, sunset, nature</h3>
+        </div>
+        <div id="results-container">
+            <!-- Search results will be displayed here -->
+        </div>
+        <div id="suggestions-container">
+            <!-- Similar word suggestions will be displayed here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
